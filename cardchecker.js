@@ -24,8 +24,6 @@ const example1 = [4, 2, 1, 6, 9, 0, 0, 7, 1, 7, 0 ,8, 7, 1, 8, 1, 4, 5, 6];
 // An array of all the arrays above
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5, example, example1];
 
-
-console.log(stringToArray(strexample))
 // Use Luhn algorithm 
 const validateCred = arr => {
   //At first I dont wont my 'arr' to be changed so I creale another variable "luhn" with the same meaning as 'arr'
